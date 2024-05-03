@@ -1,0 +1,101 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <title>PerpusGO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <img src="logo.svg" alt="" class="logo">
+
+        <div class="dropdown">
+            <img src="super.svg" alt="">
+            <h5>Super Admin</h5>
+        </div>
+
+        <div class="super-menu">
+            <li><img src="dashboard.svg" alt=""><a href="" >Dashboard</a></li>
+            <li><img src="stok.svg" alt=""></i> <a href="index.html" class="">Buku</a></li>
+            <li><span class="active-span"></span><img src="peminjaman.svg" alt=""></i> <a href="peminjaman.html" class="active">Peminjaman</a></li>
+            <li><img src="pengunjung.svg" alt=""></i><a href="">Pengunjung</a></li>
+            <li><img src="pengaturan.svg" alt=""></i><a href="">Pengaturan</a></li>
+            <li class="garis"></li>
+        </div>
+
+
+        <div class="logout">
+            <span></span>
+            <li><img src="logout.svg" alt=""> <a href="">Keluar</a></li>
+        </div>
+    </nav>
+    
+    <div class="topbar">
+        <div class="judul">
+            <h5 >Selamat datang di <span>Perpus</span></h5>
+            <p >Selamat datang di Super Admin 👋</p>
+
+        </div>
+    </div>
+
+    <main>
+        <div class="container1">
+            <div class="right-container-peminjaman">
+                <h5>Daftar Peminjaman</h5>
+                <input type="date" placeholder="Tanggal Awal - Tanggal Akhir" name="" id="">
+                <button><a href="">Pinjam Buku</a></button>
+            </div>
+            <div class="navbar-pilih">
+                <li><a href="peminjaman.html">Berlangsung</a></li>
+                <li><a href="riwayat.html" class="active">Riwayat</a></li>
+            </div>
+            <div>
+                <table>
+                    <tr>
+                        <th class="th-no">No</th>
+                        <th class="th-nama">Nama</th>
+                        <th class="th-buku">Buku</th>
+                        <th class="th-tanggal">Tanggal Meminjam</th>
+                        <th class="th-kembali">Tanggal Mengembalikan</th>
+                    </tr>
+                    <tr>
+                        <td class="dt-no">1</td>
+                        <td class="dt-nama">Davis Rosser<br><span>XII SIJA 2</span></td>
+                        <td class="dt-buku">Ayat-Ayat Cinta</td>
+                        <td class="dt-tanggal">14 Februari 2023</td>
+                        <td class="dt-kembali">17 Februari 2023</td>
+                    </tr>
+                    <tr>
+                        <td class="dt-no">2</td>
+                        <td class="dt-nama">Terry Dorwart<br><span>XII SIJA 2</span></td>
+                        <td class="dt-buku">Dasar Komputer</td>
+                        <td class="dt-tanggal">15 Februari 2023</td>
+                        <td class="dt-kembali">17 Februari 2023</td>
+                    </tr>
+                    <tr>
+                        <td class="dt-no">3</td>
+                        <td class="dt-nama">Chance Korsgaard<br><span>XII SIJA 2</span></td>
+                        <td class="dt-buku">100 Resep Masak Jepang</td>
+                        <td class="dt-tanggal">15 Februari 2023</td>
+                        <td class="dt-kembali">17 Februari 2023</td>
+                    </tr>
+                    <tr>
+                        <td class="dt-no">4</td>
+                        <td class="dt-nama">Dulce Siphron<br><span>XII SIJA 2</span></td>
+                        <td class="dt-buku">Cinta Brontosaurus</td>
+                        <td class="dt-tanggal">15 Februari 2023</td>
+                        <td class="dt-kembali">17 Februari 2023</td>
+                    </tr>
+                    <tr>
+                        <td class="dt-no">5</td>
+                        <td class="dt-nama">Emery Aminoff<br><span>XII SIJA 2</span></td>
+                        <td class="dt-buku">Pulang</td>
+                        <td class="dt-tanggal">15 Februari 2023</td>
+                        <td class="dt-kembali">17 Februari 2023</td>
+                    </tr>
+                </table>
+            </div>

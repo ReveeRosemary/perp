@@ -1,0 +1,142 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <title>PerpusGO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <img src="logo.svg" alt="" class="logo">
+
+        <div class="dropdown">
+            <img src="super.svg" alt="">
+            <h5>Super Admin</h5>
+        </div>
+
+        <div class="super-menu">
+            <li><img src="dashboard.svg" alt=""><a href="" >Dashboard</a></li>
+            <li><span class="active-span"></span><img src="buku.svg" alt=""></i> <a href="" class="active">Buku</a></li>
+            <li><img src="peminjaman.svg" alt=""></i> <a href="peminjaman.html">Peminjaman</a></li>
+            <li><img src="pengunjung.svg" alt=""></i><a href="">Pengunjung</a></li>
+            <li><img src="pengaturan.svg" alt=""></i><a href="">Pengaturan</a></li>
+            <li class="garis"></li>
+        </div>
+
+
+        <div class="logout">
+            <span></span>
+            <li><img src="logout.svg" alt=""> <a href="">Keluar</a></li>
+        </div>
+    </nav>
+    
+    <div class="topbar">
+        <div class="judul">
+            <h5 >Selamat datang di <span>Perpus</span></h5>
+            <p >Selamat datang di Super Admin 👋</p>
+
+        </div>
+    </div>
+
+    <main>
+        <div class="container">
+            <div class="right-container">
+                <h5>Daftar Buku</h5>
+                <input type="text" placeholder="Cari Judul atau ISBN">
+                <button type="button" id="filter-button"><a href="#">Filter</a></button>
+                <button class="tambah-button"><a href="">Tambah</a></button>
+            </div>
+            <div id="filter-options" style="display:none;">
+                <select class="filter-options">
+                  <option value="rak1">Pilih nomor rak</option>
+                  <option value="rak2">Rak 1</option>
+                  <option value="rak3">Rak 2</option>
+                  <option value="rak3">Rak 3</option>
+                </select>
+                <select class="filter-options">
+                  <option value="author1">Pilih subjek</option>
+                  <option value="author2">Subjek 1</option>
+                  <option value="author3">Subjek 2</option>
+                  <option value="author3">Subjek 3</option>
+                </select>
+                <select class="filter-options">
+                  <option value="publisher1">Pilih bentuk karya</option>
+                  <option value="publisher2">Karya 1</option>
+                  <option value="publisher3">Karya 2</option>
+                  <option value="publisher3">Karya 3</option>
+                </select>
+                <select class="filter-options">
+                  <option value="publisher1">Pilih mapel terkait</option>
+                  <option value="publisher2">Mapel 1</option>
+                  <option value="publisher3">Mapel 2</option>
+                  <option value="publisher3">Mapel 3</option>
+                  </select>
+              </div>
+              <script>$(document).ready(function() {
+                $('#filter-options').hide();
+                $('#filter-button').click(function() {
+                  $('#filter-options').toggle();
+                });
+              });</script>
+            <div class="buku-info">
+                <h6>Menampilkan <span>1-10</span> dari <span>100</span> Buku</h6>
+                <p>Urutkan:</p>
+                <select name="" id="" class="urutkan-buku">
+                    <option value="">Terbaru</option>
+                    <option value="">Trending</option>
+                </select>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                <img src="prev1.png" alt=""> 
+                <div class="card-content">
+                    <h6>Kambing Jantan</h6>
+                    <p>Raditya Dika</p>
+                    <img src="bukurak.svg" alt=""><a href="">Rak No.1</a> <br>
+                    <img src="stok.svg" alt=""><a href="">Tersisa 3 Buku</a> <br>
+                    <button class="titik3"><img src="3.svg" alt=""></button>
+                    <button class="pinjambuku"><a href="">Pinjam Buku</a></button>
+                </div>
+                </div>
+                <div class="card">
+                <img src="prev2.png" alt="">
+                <div class="card-content">
+                    <h6>Marmut Merah Jambu</h6>
+                    <p>Raditya Dika</p>
+                    <img src="bukurak.svg" alt=""><a href="">Rak No.1</a> <br>
+                    <img src="stok.svg" alt=""><a href="">Tersisa 3 Buku</a> <br>
+                    <button class="titik3"><img src="3.svg" alt=""></button>
+                    <button class="pinjambuku"> <a href="sinopsis.html">Pinjam Buku</a></button>
+                </div>
+                </div>
+                <div class="card">
+                <img src="prev3.png" alt="">
+                <div class="card-content">
+                    <h6>Radikus Makanmakus</h6>
+                    <p>Raditya Dika</p>
+                    <img src="bukurak.svg" alt=""><a href="">Rak No.1</a> <br>
+                    <img src="stok.svg" alt=""><a href="">Tersisa 3 Buku</a> <br>
+                    <button class="titik3"><img src="3.svg" alt=""></button>
+                    <button class="pinjambuku"><a href="">Pinjam Buku</a></button>
+                </div>
+                </div>
+                <div class="card">
+                <img src="prev4.png" alt="">
+                <div class="card-content">
+                    <h6>Cinta Brontosaurus</h6>
+                    <p>Raditya Dika</p>
+                    <img src="bukurak.svg" alt=""><a href="">Rak No.1</a> <br>
+                    <img src="stok.svg" alt=""><a href="">Tersisa 3 Buku</a> <br>
+                    <button class="titik3"><img src="3.svg" alt=""></button>
+                    <button class="pinjambuku"><a href="">Pinjam Buku</a></button>
+                </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
