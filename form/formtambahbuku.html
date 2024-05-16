@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinjam Buku</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <a class="close" href="../peminjaman.html">&times;</a>
+            <h2>Pinjam Buku</h2>
+            <form id="loanForm">
+                <div class="form-group">
+                    <label for="name">Nama:</label>
+                    <input type="text" id="name" placeholder="Cari nama atau nomor WhatsApp">
+                </div>
+                <div id="loanContainer">
+                    <div class="loan">
+                        <label>Pinjaman 1</label>
+                        <div class="loan-details">
+                            <input type="text" value="Kambing Jantan - Raditya Dika">
+                            <input type="text" placeholder="Tuliskan durasi dalam jumlah hari">
+                        </div>
+                    </div>
+                    <div class="loan">
+                        <label>Pinjaman 2</label>
+                        <div class="loan-details">
+                            <input type="text" value="Kambing Jantan - Raditya Dika">
+                            <input type="text" placeholder="Tuliskan durasi dalam jumlah hari">
+                            <button type="button" class="delete">X</button>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="add-loan">+ Tambah pinjaman</button>
+                <div class="form-actions">
+                    <button type="button" class="back-btn"> <a href="../peminjaman.html">Kembali</a></button>
+                    <button type="submit" class="save-btn"><a href="../peminjaman.html">Simpan</a></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

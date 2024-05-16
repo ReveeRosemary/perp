@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-decoration: none;
+    
+}
+
+body  {
+    background-color: #F7F8F9;
+    list-style: none;
+    font-family: "Nunito", sans-serif;
+    max-width: 1600px;
+    height: 700px;
+}
+
+nav{
+    width:  300px;
+    height:  768px;
+    padding: 24px 0px 24px 0px;
+    position: fixed;
+    gap: 48px;
+    border-radius: 1px;
+    border-right: 2px solid  #f1f2f4;
+    background-color: #ffffff;
+}
+
+.logo {
+    width: Fill (300px)px;
+    height: Hug (25px)px;
+    padding: 0px 24px 0px 24px;
+    gap: 10px;
+    opacity: 0px;
+
+}
+
+.dropdown{
+    margin-top: 48px;
+    display: flex;
+    gap: 8px;
+    width: Fill (300px)px;
+    height: Fixed (43px)px;
+    padding: 0px 24px 0px 24px;
+    gap: 8px;
+    opacity: 0px;
+    margin-bottom: 48px;
+}
+
+.dropdown img{
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    gap: 5px;
+    border-radius: 8px;
+    opacity: 0px;
+    background-color: #F4F7FB;
+}
+.dropdown h5{
+    padding: 12px 0;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 16px;
+    color: #42486C;
+}
+.super-menu{
+    width: Fill (300px)px;
+    height: Fill (432px)px;
+    gap: 8px;
+    border-radius: 4px;
+    opacity: 0px;
+
+}
+
+.super-menu li{
+    margin-bottom: 8px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+.super-menu a{
+    width: 246px;
+    height: 20px;
+    margin-left: 10px;
+    color: #6B718C;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+    font-weight: 600px;
+    line-height: 20px;
+}
+
+.super-menu li .active{
+    color: #2680EB;
+
+}
+.active-span{
+    width: 30px;
+    height: 50px;
+    position: absolute;
+    left: -20px;
+    margin-top: -13px;
+    background-color: #2680EB;
+    border-radius: 8px;
+}
+
+.super-menu img{
+    width: 16px;
+    height: 16px;
+
+}
+
+.garis {
+    width: 200px;
+    margin: 70px auto;
+    border-bottom: 2px solid #f1f2f4;
+}
+.logout{
+    width: Fill (300px)px;
+    height: Hug (76px)px;
+    gap: 24px;
+    border-radius: 4px;
+    opacity: 0px;    
+}
+
+
+.logout li{
+    margin-bottom: 8px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+.logout a {
+    font-family: "Nunito", sans-serif;
+    color: #FC544B;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px; 
+}
+
+
+
+.topbar{
+    width:  1,066ppx;
+    height:  60px;
+    left: 300px;
+    padding: 24px;
+    gap: 10px;
+    border: 0px 0px 1px 0px;
+    opacity: 0px;
+    margin-left: 303px;
+    border-bottom: 2px solid #F1F2F4;
+    background-color: #ffffff;
+}
+
+.judul{
+    width: Fill (1,018px)px;
+    height: Hug (51px)px;
+    gap: 0px;
+    opacity: 0px;
+}
+.judul h5{
+    font-family: "Nunito", sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.02em;
+    
+}
+
+.judul span{
+    color: #2680EB;
+}
+
+.judul p {
+    color: #6B718C;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: -0.011em;
+
+}
+
+.container {
+    margin-top: 24px;
+    margin-left: 324px;
+    width:  988px;
+    height: Hug (548px)px;
+    top: 123px;
+    left: 324px;
+    padding: 24px;
+    gap: 24px;
+    border-radius: 12px;
+    opacity: 0px;
+    background-color: #ffffff;
+}
+
+.container h5 {
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 27.28px;
+    letter-spacing: -0.02em;
+    padding-left: 10px;
+    text-align: left;
+    margin-right: 26%;
+    padding-top: 5px;
+}
+
+.progres{
+    border-bottom: 1px solid #dbdddf;
+    display: flex;
+    margin-top: 8px;
+    margin-left: 5px;
+    font-family: "Nunito", sans-serif;
+}
+
+.progres li {
+    margin-right: 20px;
+    color: #dbdddf;
+}
+
+.container li a{
+   color: #dbdddf;
+   padding-bottom: 6.5px;;
+}
+
+.container .active{
+   color: #2680EB;
+   border-bottom: 2px solid #2680EB;
+}
+
+.form {
+    display: flex;
+    margin-top: 20px;
+}
+.retor {
+    width: 10px;
+    height: 30px;
+    background-color: #2680EB;
+    margin-right: 10px;
+}
